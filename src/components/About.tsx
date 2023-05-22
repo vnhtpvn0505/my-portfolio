@@ -4,19 +4,18 @@ const About = () => {
     return (
         <div className="about-container " id="about">
             <div className="w-full text-center">
-                <span>About Me</span>
+                <span className="border border-yellow-100 p-2">About Me</span>
                 <h3 className="text-[40px] text-bold text-yellow-400">Creative in Law</h3>
             </div>
             <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-4">
                     <div>
-                        <Image  src='/images/image3.png' className="profile-img ps-8" width={700 } height={700}  alt="Phuc personal headshot" />
+                        <Image  src='/images/image3.png' className="profile-img float-right" width={400 } height={400}  alt="Phuc personal headshot" />
                     </div>
                     <div>
                         <h4 className="title text-[30px] mt-[25px]">Biography</h4>
                         <span>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                            eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, 
-                            sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat.
+                        I'm 29 years old. I started designing here about 1,5 years. <br />  Before that, I worked as a programmer. <br />
+                        Passionate about design and currently pursuing a career in UI/UX design.
                         </span>
                         <div className="wrapper w-full h-auto clear-both flex">
                             <div className="w-1/2">
@@ -49,7 +48,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                                <a href="https://drive.google.com/file/d/1hG-iMdGK9k6L3kQDccYggXic5c2FEEVb/view?usp=sharing"  target="_blank" className="cta-btn">Download CVs</a>
+                                <a href="https://drive.google.com/file/d/1hG-iMdGK9k6L3kQDccYggXic5c2FEEVb/view?usp=sharing"  target="_blank" className="cta-btn">Download CV</a>
                         </div>
                     </div>
                    
