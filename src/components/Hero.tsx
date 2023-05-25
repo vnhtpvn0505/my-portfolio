@@ -2,8 +2,6 @@ import Image from "next/image";
 import { BsLinkedin, BsBehance, BsGoogle } from "react-icons/bs"; 
 
 
-
-
 const Hero = () => {
     return (
         <div className="hero-container">

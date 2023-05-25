@@ -13,9 +13,8 @@ const About = () => {
                     </div>
                     <div className="pl-8">
                         <h4 className="title text-[30px] mt-[25px]">About Me</h4>
-                        <span>
-                        I'm 29 years old. I started designing here about 1,5 years. <br />  Before that, I worked as a programmer. <br />
-                        Passionate about design and currently pursuing a career in UI/UX design.
+                        <span className=" text-neutral-500">
+                        I am a highly skilled professional with a passion for UI/UX design and software development. With a solid background in both areas, I bring 2 years of experience in UI/UX design and 3 years in software development to the table.
                         </span>
                         <div className="wrapper w-full h-auto clear-both flex">
                             <div className="w-1/2">
