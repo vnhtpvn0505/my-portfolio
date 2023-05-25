@@ -12,7 +12,7 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
+  background-color: #101310;
   color: #DADADB;
   width: 100%;
   margin: 0 auto;
@@ -41,7 +41,6 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
 }
 
 .nav-container .logo {
@@ -50,7 +49,7 @@ li {
 }
 
 .cta-btn {
-  background-color: #FFCC1A;
+  background-color: #009e66;
   color: #1D1E20;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -437,6 +436,19 @@ hr {
 .hero-container .social-icons a:hover {
   color: #DADADB;
 }
+
+
+/* line*/
+.section-title .t_center h3::before{
+  content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -165px;
+    height: 45px;
+    width: 3px;
+    background: #009e66;
+}
+/* #End line*/
 
 /* About */
 .about-container {

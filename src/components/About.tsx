@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="about-container " id="about">
-            <div className="w-full text-center">
-                <span className="border border-yellow-100 p-2">About Me</span>
-                <h3 className="text-[40px] text-bold text-yellow-400">Creative in Law</h3>
+        <div className="container" id="about">
+            <div className="w-full text-center section-title t_center ">
+                <span >BIOGRAPHY</span>
+                <h3 className="text-[40px] font-black text-green-500">Who am I?</h3>
             </div>
-            <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-4">
+            <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-4 mt-8">
                     <div>
                         <Image  src='/images/image3.png' className="profile-img float-right" width={400 } height={400}  alt="Phuc personal headshot" />
                     </div>
-                    <div>
-                        <h4 className="title text-[30px] mt-[25px]">Biography</h4>
+                    <div className="pl-8">
+                        <h4 className="title text-[30px] mt-[25px]">About Me</h4>
                         <span>
                         I'm 29 years old. I started designing here about 1,5 years. <br />  Before that, I worked as a programmer. <br />
                         Passionate about design and currently pursuing a career in UI/UX design.
