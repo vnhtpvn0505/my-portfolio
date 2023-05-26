@@ -40,12 +40,6 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div className=" w-full ">
-                <div id="section10" className="demo text-center">
-                    <a href="#about"><span></span></a>
-                   
-                </div>
-            </div>
         </div>
     )
 }

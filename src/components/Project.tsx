@@ -4,25 +4,6 @@ import {Be} from 'iconsax-react';
 
 const Projects = () => {
     return (
-        // <div className="projects-container">
-        //     <h2>Projects</h2>
-        //     <div className="projects-grid">
-        //         {projectData && projectData.map((project) => (
-        //             <div className="project-card" key={project.id}>
-        //                 <div className="project-header">
-        //                     <i className="fa-regular fa-folder-open folder-icon"></i>
-        //                     <div className="small-icons">
-        //                         <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
-        //                     </div>
-        //                 </div>
-        //                 <h3>{project.title}</h3>
-        //                 <p>{project.description}</p>
-        //             </div>
-        //         ))
-        //         }
-        //     </div>
-        // </div>
-
         <div className="container py-24">
             <div className="w-full text-center section-title t_center ">
                 <span >Experience</span>
@@ -52,7 +33,6 @@ const Projects = () => {
                         <div className="text-left bg-teal-100/[0.1] p-4 gap-y-8">
                         </div>
                      </div>
-                    
                  </div>
             </div>
             </div>

@@ -10,7 +10,7 @@ const nextConfig = {
           },
         ],
       },
-      output: 'export',
+    
       reactStrictMode: true,
       compiler: {
       styledComponents: true,
