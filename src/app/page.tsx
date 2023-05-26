@@ -6,6 +6,7 @@ import Projects from '@/components/Project';
 import Head from 'next/head';
 import Footer from '@/components/Footer';
 import Experience from '@/components/Experience ';
+import Navbar from '@/components/Navbar';
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<link rel="icon" href="/favicon.jpeg" />
 		</Head>
 			<div className='container'>
+			<Navbar/>
       		<About />
 			<Hero />
 			<Skill />
