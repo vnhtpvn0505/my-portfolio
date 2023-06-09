@@ -1,12 +1,16 @@
 import { projectData } from './data/data';
 import Image from "next/image";
 import {Be} from 'iconsax-react';
+import Link from 'next/link';
 
 const Projects = () => {
     return (
         <div className="container py-24">
             <div className="w-full text-center section-title t_center ">
                 <span >Experience</span>
+                <h1 className="title">
+                        Read <Link href="pages">this page!</Link>
+                </h1>
                 <h3 className="text-[40px] font-black text-green-500">Project</h3>
                  <div className="w-full pt-[30px] ">
                     {/* Portfolio */}

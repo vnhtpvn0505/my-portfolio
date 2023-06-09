@@ -14,7 +14,8 @@ const About = () => {
                     <div className="pl-8">
                         <h4 className="title text-[30px] mt-[25px]">About Me</h4>
                         <span className=" text-neutral-500">
-                            I am a highly skilled professional with a passion for UI/UX design and software development. With a solid background in both areas, I had 2 years of experience in UI/UX design and 3 years in software development.
+                            I am a highly skilled professional with a passion for UI/UX design and software development. With a solid background in both areas, 
+                            I had 2 years of experience in UI/UX design and 3 years in software development.
                         </span>
                         <div className="wrapper w-full h-auto clear-both flex">
                             <div className="w-1/2">
