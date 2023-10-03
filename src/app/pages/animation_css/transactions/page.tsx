@@ -12,7 +12,10 @@ export default function Transaction() {
           <h1 className="title">
               <Link href="pages/animation_css/transactions/timing">Transactions timing</Link>
           </h1>
-         </div>
+          <h1 className="title">
+              <Link href="pages/animation_css/transactions/property">Transactions Property</Link>
+          </h1>
+          </div>
       </div>
       </body>
 

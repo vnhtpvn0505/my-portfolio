@@ -5,7 +5,7 @@ import { BsLinkedin, BsBehance, BsGoogle } from "react-icons/bs";
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image  src='/images/avatar.png' className="profile-img" width={300} height={300} alt="Phuc personal headshot" />
+            <Image  src='/images/logo2.avif' className="profile-img" width={300} height={300} alt="Phuc personal headshot" />
             <div className="hero-text">
                 <h2>Hey, I'm Phuc Huynh 👋</h2>
                 <p>
@@ -18,15 +18,15 @@ const Hero = () => {
                         href="https://www.behance.net/huynhphuv"
                         aria-label="Behance"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="Behance"
                     >
                          <BsBehance size={32} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/huynhphuv/"
+                        href="https://www.linkedin.com/in/phuc05/"
                         aria-label="LinkedIn"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="LinkedIn"
                     >
                          <BsLinkedin />
                     </a>
@@ -34,7 +34,7 @@ const Hero = () => {
                         href="mailto: vnhtpvn0505@gmail.com"
                         aria-label="Gmail"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="Gmail "
                     >
                          <BsGoogle />
                     </a>
