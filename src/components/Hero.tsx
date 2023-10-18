@@ -5,7 +5,7 @@ import { BsLinkedin, BsBehance, BsGoogle } from "react-icons/bs";
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image  src='/images/logo2.avif' className="profile-img" width={300} height={300} alt="Phuc personal headshot" />
+            <Image  src='/images/avatar.png' className="profile-img" width={300} height={300} alt="Phuc personal headshot" />
             <div className="hero-text">
                 <h2>Hey, I'm Phuc Huynh 👋</h2>
                 <p>
