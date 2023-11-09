@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "resolutions": { "react-error-overlay": "6.0.9" },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
   "dependencies": {
     "@types/node": "20.1.7",
     "@types/react": "18.2.6",
@@ -17,7 +19,7 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "iconsax-react": "^0.0.8",
-    "next": "13.4.2",
+    "next": "^13.4.19",
     "npm": "^9.6.6",
     "postcss": "8.4.23",
     "react": "18.2.0",
@@ -25,6 +27,5 @@
     "react-icons": "^4.8.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
-    
   }
 }

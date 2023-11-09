@@ -23,7 +23,7 @@ const Hero = () => {
                          <BsBehance size={32} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/huynhphuv/"
+                        href="https://www.linkedin.com/in/phuc05/"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
