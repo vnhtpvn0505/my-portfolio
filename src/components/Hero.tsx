@@ -18,7 +18,7 @@ const Hero = () => {
                         href="https://www.behance.net/huynhphuv"
                         aria-label="Behance"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="Behance"
                     >
                          <BsBehance size={32} />
                     </a>
@@ -26,7 +26,7 @@ const Hero = () => {
                         href="https://www.linkedin.com/in/phuc05/"
                         aria-label="LinkedIn"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="LinkedIn"
                     >
                          <BsLinkedin />
                     </a>
@@ -34,7 +34,7 @@ const Hero = () => {
                         href="mailto: vnhtpvn0505@gmail.com"
                         aria-label="Gmail"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="Gmail "
                     >
                          <BsGoogle />
                     </a>
