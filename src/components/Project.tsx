@@ -30,7 +30,7 @@ const Projects = () => {
                             <p className="font-bold  text-stone-200">Contact me</p>
                         </div>
                         <div className="text-left bg-teal-100/[0.1] p-4 gap-y-8">
-                            <a  target="_blank" href="https://www.linkedin.com/in/huynhphuv/"> 
+                            <a  target="_blank" href="https://www.linkedin.com/in/phuc-huynh-t05/"> 
                                 <Image  src='/images/linkedin.svg' className="profile-img float-right" width={32} height={32}  alt="Phuc personal headshot" />
                             </a>
                         </div>

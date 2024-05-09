@@ -7,7 +7,7 @@ export default function Animation() {
     <>
     <div>
       <h1 className="title">
-                          Read <Link href="pages/animation_css/transactions">this page!</Link>
+        <Link href="animation_css/transactions">CSS Animations Transaction</Link>
       </h1>
     </div>
     

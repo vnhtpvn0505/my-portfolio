@@ -1,0 +1,6 @@
+{
+    "breadcrumbs.enabled": true,
+    "editor.formatOnType": true,
+    "diffEditor.renderSideBySideInlineBreakpoint": 500,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BsLinkedin, BsBehance, BsGoogle } from "react-icons/bs"; 
 
 
+
 const Hero = () => {
     return (
         <div className="hero-container">
@@ -14,22 +15,10 @@ const Hero = () => {
                
                 <div className="social-icons">
                    
-                    <a
-                        href="https://www.behance.net/huynhphuv"
-                        aria-label="Behance"
-                        target="_blank"
-                        rel="Behance"
-                    >
-                         <BsBehance size={32} />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/phuc05/"
-                        aria-label="LinkedIn"
-                        target="_blank"
-                        rel="LinkedIn"
-                    >
-                         <BsLinkedin />
-                    </a>
+                   
+                        <Image  src='/images/_home_4.svg' style={{background:"#fff"}} width={32} height={32} alt="Phuc personal headshot" />
+                  
+                        <Image  src='/images/_home_2.svg' style={{background:"#fff"}} width={32} height={32} alt="Phuc personal headshot" />
                     <a
                         href="mailto: vnhtpvn0505@gmail.com"
                         aria-label="Gmail"

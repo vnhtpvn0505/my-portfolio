@@ -8,7 +8,7 @@ const Navbar = () => {
          PIS
         </Link>
       </div>
-      <a href="https://drive.google.com/file/d/1mqMad9S3OkMt9AdXNy0j4ISY5pcrCash/view?usp=share_link"  target="_blank" className="cta-btn">Resume</a>
+      <a href="https://drive.google.com/file/d/1iwC58ylcUrRtB7tr6TaesRRUiOSk6vG6/view?usp=sharing"  target="_blank" className="cta-btn">Resume</a>
     </div>
   )
 }
